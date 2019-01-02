@@ -1,0 +1,417 @@
+
+*{
+  box-sizing: border-box;
+  margin: auto 0;
+}
+
+html{
+
+  font-size:16px;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
+
+header {
+  max-width:100%;
+  /* background-color:red; */
+  height:90px;
+  border-bottom:1px solid rgb(210, 210, 210);
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:0.875em;
+  font-weight:600;
+}
+
+.height-size{
+  height:100%;
+}
+
+.nav-section{
+  max-width:100%;
+  /* background-color: aquamarine; */
+  height:34px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+
+.nav-section-content-container{
+  padding:8px 4px 8px 4px;
+  /* background-color: yellow; */
+  /* height:100%; */
+  
+
+
+}
+
+.nav-section-content {
+  padding:0 32px 0 32px;
+  margin:0 170px 0 170px;
+  /* background-color: red; */
+  /* height:100%; */
+  display:flex;
+  align-items: center;
+  justify-content:space-between;
+}
+
+.hearth {
+  border:1px solid rgb(255,255,255,0.3);
+  padding:0 16px 0 0;
+  margin:0 16px 0 0;
+ 
+}
+
+.text-left {
+  margin:0 32px 0 0;
+  /* height:100%; */
+}
+/* 
+.text-left p{
+  display: block;
+  height:100%;
+} */
+
+nav {
+  
+  /* height:100%; */
+  float: right;
+  
+}
+
+.menu {
+  display:flex;
+  list-style-type: none;
+  align-items: center;
+  /* height:100%; */
+ 
+  
+}
+
+.mr {
+  margin-right:16px;
+}
+
+
+.logo-search-section{
+  max-width:100%;
+  /* background-color: blueviolet; */
+  height:56px;
+}
+
+.logo-search-section-content{
+  padding:0 32px 0 32px;
+  margin:0 170px 0 170px;
+}
+
+
+.logo {
+  height:56px;
+  
+  
+}
+
+.logo img{
+  height:50%;
+  width:auto;
+  display: inline-block;
+  margin:16px 16px 0 0;
+}
+
+/* .logo-search-section {
+  display:flex;
+  
+  
+} */
+
+.logo-search-section-content{
+  display: flex;
+  justify-content: space-between;
+  /* height:100%; */
+  
+  
+}
+
+.form-container{
+  flex:1 1 auto;
+  margin: 0;
+  padding:8px 0 8px 0;
+  /* height:100%; */
+}
+
+
+.three-elments-form {
+  display:flex;
+  /* align-items: center; */
+  /* height:100%; */
+}
+.three-elments-form input {
+  flex:1 1 auto;
+  padding: 1px 1px 1px 10px;
+  border:none;
+  background-color: rgba(0,0,0,.05);
+}
+
+.three-elments-form span{
+  padding:14px 4px 0 16px;
+  background-color: rgba(0,0,0,.05);
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.menu-right{
+  margin:0 0 0 16px;
+  padding: 8px 0 8px 0;
+  display:flex;
+  align-items: center;
+}
+
+
+.menu-right {
+  padding:4px;
+  font-size: 16px;
+  
+}
+
+.menu-right a{
+  padding:4px;
+}
+button {
+  background-color: rgb(203, 56, 55);
+  border:none;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  padding:8px 16px 8px 16px;
+
+}
+
+.sign-up{
+  width:100%;
+  background-color:rgb(29, 78, 105);
+  background-image: url("https://static.npmjs.com/images/hero-cityscape.svg");
+  background-position: top;
+  background-repeat: no-repeat;
+  height:605.312px;
+
+}
+
+.container{
+  width:1024px;
+  margin:0 auto;
+  height:100%;
+  
+
+}
+
+.flex{
+  display:flex;
+  align-items: center;
+}
+
+.sign-up-content{
+  width:50%;
+  /* display:flex;
+  flex-flow: column;
+  justify-content: center; */
+  /* height:100%; */
+}
+
+
+.sign-up-content h1{
+  margin:32.160px 0 32.160px 0;
+  padding:16px 0 16px 0;
+  font-size:48px;
+  color:white;
+  font-weight:400;
+  
+  
+}
+
+.sign-up-content span{
+  color:#fff;
+  font-size:20px;
+  font-weight:400;
+}
+
+.button {
+  padding:32px 0 32px 0;
+  width:70%;
+  
+}
+
+.anchor{
+  display:inline-block;
+  border-radius: 20px 20px 20px 20px;
+  text-align:center;
+  padding:7px 18px 8px 18px;
+  text-decoration: none;
+  border: 1px solid rgba(0,0,0,0);
+  color:white;
+}
+
+.button a{
+ 
+  background-color: #f09233;
+  width:70%;
+ 
+}
+
+.about-orgs{
+  width:100%;
+  background-color:rgb(39, 53, 71);
+  height:654.875px;
+
+}
+
+.orgs-content{
+  display:flex;
+}
+
+.image-div{
+  height:100%;
+  padding:0px 32px 0 32px;
+  margin:0;
+}
+
+/* img{
+  height:100%;
+  width:auto;
+  overflow: hidden;
+} */
+
+.image {
+  height:271.844px;
+  width:448px;
+  width:auto;
+  overflow: hidden;
+}
+
+.text-section-right{
+  padding-left:64px;
+  color:white;
+
+}
+
+.text-section-right h2 {
+  font-size:36px;
+  font-weight:600;
+  margin-bottom:29.880px;
+  text-align:left;
+}
+
+.text-section-right ul{
+  margin: 16px 0 16px 0;
+}
+
+.text-section-right li{
+  font-size: 20px;
+  font-weight: 400;
+  padding:8px 0 8px 0;
+}
+
+.center {
+  text-align: center;
+  width:90%;
+  margin:0 auto;
+}
+
+.center a{
+  background-color: rgb(203, 56, 55);
+  width:90%;
+  font-size:18px;
+}
+
+.center p {
+  margin:16px 0 16px 0;
+  font-weight: 600;
+}
+
+.about-npm {
+  background-color:rgb(29, 78, 105);
+  background-image: url("https://static.npmjs.com/images/npm-is-BOXES.svg");
+  background-position: top;
+  background-repeat: no-repeat;
+  height:501.875px;
+  color:white;
+  
+}
+
+.about-npm-content{
+  width:40%;
+}
+
+.about-npm h2{
+  font-size:36px;
+  font-weight:600;
+  margin-bottom: 29.880px;
+}
+
+.about-npm p{
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.about-npm .button{
+  width:45%;
+}
+
+.about-npm .button a{
+  background-color: rgb(52, 73, 94);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.title{
+  text-align:center;
+  margin:0 auto;
+}
+
+.title h2 {
+  margin:29.880px 0px 29.880px 0px;
+  padding:16px 0 4px 0;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.title p{
+  margin:16px 0 16px 0;
+  padding-bottom:32px;
+}
+
+.boxes{
+  padding: 0 8px 0 8px;
+  display:flex;
+  align-items:center;
+
+}
+
+.box-common{
+  padding:32px 0 32px 0;
+  text-align: center;
+  margin:8px;
+  max-width:33%;
+}
+
+.div-image{
+  max-height:50%;
+  
+}
+
+.div-image img{
+  max-height:100%;
+  width:auto;
+  overflow:hidden;
+}
+
+.box-common h3{
+  margin:20px 0 20px 0;
+}
+
+.box-common p{
+
+  margin:16px 0 16px 0;
+  padding:0 32px 0 32px;
+}
+
+.box-common span{
+  color:rgb(203, 56, 55);
+  font-weight:600;
+}
